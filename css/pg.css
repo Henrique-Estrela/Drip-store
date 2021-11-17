@@ -1,0 +1,281 @@
+<style>
+@import url ('https://fonts.googleapis.com/css2? family = Exo + 2: wght @ 600 & display = swap');
+</style>
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    vertical-align: baseline;
+    font-weight: normal;
+    font-family:"Exo 2', sans-serif";
+}
+
+.navbar {
+	background: linear-gradient(133deg, rgba(75,0,130,1) 0%, rgba(47,0,82,1) 39%,rgba(0,0,0,1) 100%);
+    box-shadow: 2px 2px 2px #cdcdcd;
+	border-width : 50px;
+	font-family:"Exo 2', sans-serif";
+	align-items: center;
+
+}
+#subbar{
+    background: black;
+
+}
+#texto2 {
+  margin-left: 20%;
+
+}
+
+.logo{
+	margin-left: 0;
+}
+
+.btn {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    border-radius: 50px;
+    color:#ffffff;
+    transition: background 2s;
+    font-size: 3;
+}
+
+#imgBanner {
+	height: 450px;
+}
+
+.novelty-list {
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    font-family:"Exo 2', sans-serif";
+}
+
+.wrapper-novelty {
+    display: -ms-flexbox;
+    display: flex;
+}
+@media (max-width: 600px)
+.product-component-item-novelties {
+    width: 48%;
+    margin-bottom: 20
+px
+;
+}
+
+.noveltys-buy-product-wrapper {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+@media (max-width: 1024px)
+.product-component-item-novelties {
+    width: 45%;
+    margin-bottom: 20
+px
+;
+}
+.product-component-item-novelties {
+    width: 23%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+ }
+
+ @media (max-width: 600px)
+.product-component-list {
+    margin: 15
+px
+;
+}
+.product-component-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0 3
+em
+;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+}
+@media only screen and (max-width: 768px)
+.product-component-list {
+    padding: 0;
+}
+.product-component-list {
+    text-align: center;
+    padding-bottom: 30
+px
+;
+}
+ol, ul {
+    list-style-type: none;
+}
+
+.noveltys-buy-product-wrapper {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px)
+.product-component-item-novelties {
+    width: 48%;
+    margin-bottom: 20
+px
+;
+}
+@media (max-width: 1024px)
+.product-component-item-novelties {
+    width: 45%;
+    margin-bottom: 20px;
+}
+.product-component-item-novelties {
+    width: 23%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+@media (max-width: 600px)
+.product-component-item-novelties {
+    width: 48%;
+    margin-bottom: 20px;
+}
+@media (max-width: 1024px)
+
+.product-component-item-novelties {
+    width: 45%;
+    margin-bottom: 20px;
+}
+.product-component-item-novelties {
+    width: 23%;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+}
+
+.view-more {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+}
+@media (max-width: 1024px)
+.view-more {
+    margin-bottom: 20
+px
+;
+}
+
+.wrapper-novelty {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.noveltys-buy-product-wrapper {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.font-price-noveltys{
+    margin-left: 0px;
+}
+
+/*cor das letras*/
+
+#corletra{
+    color: gray;
+}
+#corletra2{
+    color: white;
+}
+
+.product-img{
+    border-radius: 10px;
+}
+
+.preco1{
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border: 0;
+    
+}
+.preco2{
+    padding-left: 160px ;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border: 0;
+    
+}
+.preco3-4{
+    padding-left: 85px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border: 0;
+    
+}
+.preco5{
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border: 0;
+}
+.preco6{
+    padding-left: 120px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border: 0;
+}
+.preco7{
+    padding-left: 110px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border: 0;
+}
+.preco8{
+    padding-left: 120px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border: 0;
+}
+.preco9{
+    padding-left: 160px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border: 0;
+}
+
+
+.botao {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border: 0;
+    color:#000000;
+    transition: background 2s;
+    font-size: 3;
+}
+

@@ -1,0 +1,766 @@
+<!doctype html>
+<html lang="pt br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"> 
+    
+    <!-- css -->
+    <link href="css/pg.css" rel="stylesheet" type="text/css">
+
+    <!-- font -->
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Exo + 2: wght @ 600 & display = swap "rel =" stylesheet ">
+
+    <!-- barra de icon-->
+    <title>Drip Store</title>
+    <link rel="icon" href="_image/icon.png" type="image/png">
+
+  </head>
+  
+  <body>
+    
+  
+    <nav class="navbar navbar-light bg-light  container-fluid row-cols-sm-auto" >
+      
+                           
+      <div class="offcanvas offcanvas-start container-flex container-fluid justify-content-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header col-sm-12">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Drip Store</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#subbar">inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#fim"></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contato
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </li>
+                </ul>  
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+     
+
+      <div class="container-fluid logo">
+        <a class="navbar-brand" href="#">
+          <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </a>
+        <lu class="navbar-nav align-items-start" id="logo">
+            <a class="navbar-brand " href="#">
+              <img src="_image/icon.png" alt="" width="70" height="65" class="d-inline-block align-text-top-center">
+              Drip Store
+            </a>
+        </lu>
+  
+      </div> 
+        
+      <div class="d-grid gap-1 d-md-flex justify-content-md-end ">
+        <button class="btn btn-outline-light" type="button"><i  href="..."class="far fa-envelope fa-2x"></i></button>
+        <button class="btn btn-outline-light" type="button"><i href="(55)75 98884-4447" class="fab fa-whatsapp fa-2x"></i></button>
+        <button class="btn btn-outline-light" type="button" ><i href="https://instagram.com/dripstor.e?utm_medium=copy_link" class="fab fa-instagram fa-2x"></i></button>
+      </div>
+    </nav>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-black" id="subbar">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Navbar brand -->
+          <a class="navbar-brand mt-2 mt-lg-0" id="corletra2" href="#">
+            <i class="btn fas fa-shipping-fast me-3"></i>Entregamos para todo o Brasil!
+          </a>
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="texto2">
+            <li class="nav-item">
+              <a class="nav-link" id="corletra2" href="#m">Maasculino</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="corletra2" href="#f">Feminino</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="corletra2" href="#u">Unixes</a>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+
+        <!-- Right elements -->
+        <div class="d-flex align-items-center">
+          <!-- Icon -->
+          <a class="text-reset me-3" href="#">
+            <i class="fas fa-shopping-cart" id="corletra2"></i>
+          </a>
+
+          <!-- Notifications -->
+          <a
+            class="text-reset me-3 dropdown-toggle hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fas fa-bell" id="corletra2"></i>
+            <span class="badge rounded-pill badge-notification bg-danger">1</span>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuLink" id="corletra2">
+            <li>
+              <a class="dropdown-item" href="#">Some news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Another news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+
+          <!-- Avatar -->
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false">
+              <i class="fas fa-user"></i>
+            </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Action</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+        </div>
+        <!-- Right elements -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+    <main>
+      <section class="sectionCarrosel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="_image/banner6.jfif" id="imgBanner" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="_image/banner2.jfif" id="imgBanner" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="_image/banner5.jfif" id="imgBanner" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <style type="text/css"> 
+        a:link { text-decoration:none; } 
+      </style>
+      <div class="yCmsComponent component-ArezzoCoProductListComponentModel">
+        <div class="novelty-list">
+          <h2 class="title-home-novelty" id="m"> MASCULINO</h2>
+          <ul class="product-component-list">
+            <li class="product-component-item-novelties">
+              <div class="product-item" data-product-code="7022500010002U">
+                <div class="progressive-discount-icon">
+                </div> 
+                <a href="#" title="Tênis adidas slip-on" class="product-item-link">
+                  <div class="product-item-thumb">
+                    <img class="product-img loaded" width="300" height="350" alt="Tênis adidas slip-on" title="Tênis adidas slip-on" src="_image/sapato1.jfif">
+                  </div>
+                  <div class="wrapper-novelty">
+                    <div class="title-novelty-wrapper">
+                      <h4 class="title-product-noveltys" id="corletra">Tênis Adidas Slip-on</h4>
+                    </div>
+                    <div class="font-price-noveltys align-items-end preco1" id="corletra">R$85,00
+                    </div>
+                  </div>
+                </a>
+                <div class="noveltys-buy-product-wrapper">
+                  <a href="#">
+                    <p class="noveltys-buy-product botao" id="corletra">COMPRAR</p>
+                  </a>
+                </div>
+                <input type="hidden" class="sellable" value="true"> 
+                <input type="hidden" class="status" value=""> 
+                <input type="hidden" class="purchasable" value="true"> 
+                <input type="hidden" class="variantOptionsLength" value="0">
+              </div>
+            </li>
+            <li class="product-component-item-novelties">
+              <div class="product-item" data-product-code="7022500010008U">
+                <div class="progressive-discount-icon">
+                  
+                </div> 
+                <a href="#" title="Nike Air Force" class="product-item-link">
+                  <div class="product-item-thumb">
+                    <img class="product-img loaded" width="300" height="350" alt="Nike Air Force" title="Nike Air Force" src="_image/sapato10.jfif">
+                  </div>
+                  <div class="wrapper-novelty">
+                    <div class="title-novelty-wrapper">
+                      <h4 class="title-product-noveltys" id="corletra">Nike Air Force</h4>
+                    </div>
+                    <div class="font-price-noveltys align-items-end preco5" id="corletra">R$100,00
+                    </div>
+                  </div>
+                </a>
+                <div class="noveltys-buy-product-wrapper">
+                  <a href="#">
+                    <p class="noveltys-buy-product botao" id="corletra">COMPRAR</p>
+                  </a>
+                </div>
+                <input type="hidden" class="sellable" value="true"> 
+                <input type="hidden" class="status" value=""> 
+                <input type="hidden" class="purchasable" value="true"> 
+                <input type="hidden" class="variantOptionsLength" value="0">
+              </div>
+            </li>
+            <li class="product-component-item-novelties">
+                <div class="product-item" data-product-code="7022500010001U">
+                  <div class="progressive-discount-icon">
+                    
+                  </div> 
+                  <a href="#" title="Air Max 97" class="product-item-link">
+                      <div class="product-item-thumb">
+                        <img class="product-img loaded" width="300" height="350" alt="Air Max 97 " title="Air Max 97" src="_image/sapato6.jfif">
+                      </div>
+                      <div class="wrapper-novelty">
+                        <div class="title-novelty-wrapper">
+                          <h4 class="title-product-noveltys titulo" id="corletra">Air Max 97</h4>
+                        </div>
+                        <div class="font-price-noveltys preco6" id="corletra">R$100,00
+                      </div>
+                    </div>
+                  </a>
+                <div class="noveltys-buy-product-wrapper">
+                  <a href="#">
+                    <p class="noveltys-buy-product botao" id="corletra">COMPRAR
+                    </p>
+                  </a>
+                </div>
+                <input type="hidden" class="sellable" value="true"> 
+                <input type="hidden" class="status" value="">
+                 <input type="hidden" class="purchasable" value="true"> 
+                 <input type="hidden" class="variantOptionsLength" value="0">
+               </div>
+            </li>
+            <li class="product-component-item-novelties">
+                <div class="product-item" data-product-code="7022500010005U">
+                  <div class="progressive-discount-icon">
+                    
+                  </div> 
+                  <a href="#" title="Vans Old School" class="product-item-link">
+                    <div class="product-item-thumb">
+                    <img class="product-img loaded" width="300" height="350" alt="Vans Old School" title="Vans Old School" src="_image/sapato4.jfif">
+                  </div>
+                  <div class="wrapper-novelty">
+                    <div class="title-novelty-wrapper">
+                      <h4 class="title-product-noveltys" id="corletra">Vans Old School</h4>
+                    </div>
+                    <div class="font-price-noveltys preco3-4" id="corletra">R$90,00
+                    </div>
+                  </div>
+                </a>
+                <div class="noveltys-buy-product-wrapper">
+                  <a href="#">
+                    <p class="noveltys-buy-product botao" id="corletra">COMPRAR</p>
+                  </a>
+                </div>
+                <input type="hidden" class="sellable" value="true"> 
+                <input type="hidden" class="status" value=""> 
+                <input type="hidden" class="purchasable" value="true"> 
+                <input type="hidden" class="variantOptionsLength" value="0">
+              </div>
+            </li>
+          </ul>
+          <div class="view-more"> 
+            <a href="#" title="VER MAIS" class="button-view-more" id="corletra">VER MAIS
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <main>
+      <section class="sectionCarrosel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="_image/banner7.jfif" id="imgBanner" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="_image/banner8.jfif" id="imgBanner" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="_image/banner9.jfif" id="imgBanner" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      <style type="text/css"> 
+        a:link { text-decoration:none; } 
+      </style>
+      <div class="yCmsComponent component-ArezzoCoProductListComponentModel">
+        <div class="novelty-list">
+          <h2 class="title-home-novelty" id="f"> FEMININO</h2>
+          <ul class="product-component-list">
+            <li class="product-component-item-novelties">
+              <div class="product-item" data-product-code="7022500010002U">
+                <div class="progressive-discount-icon">
+                </div> 
+                <a href="#" title="Balenciaga Feminino" class="product-item-link">
+                  <div class="product-item-thumb">
+                    <img class="product-img loaded" width="300" height="350" alt="Balenciaga Feminino" title="Balenciaga Feminino" src="_image/sapato8.jfif">
+                  </div>
+                  <div class="wrapper-novelty">
+                    <div class="title-novelty-wrapper">
+                      <h4 class="title-product-noveltys" id="corletra">Balenciaga Feminino</h4>
+                    </div>
+                    <div class="font-price-noveltys align-items-end preco1" id="corletra">R$90,00
+                    </div>
+                  </div>
+                </a>
+                <div class="noveltys-buy-product-wrapper">
+                  <a href="#">
+                    <p class="noveltys-buy-product botao" id="corletra">COMPRAR</p>
+                  </a>
+                </div>
+                <input type="hidden" class="sellable" value="true"> 
+                <input type="hidden" class="status" value=""> 
+                <input type="hidden" class="purchasable" value="true"> 
+                <input type="hidden" class="variantOptionsLength" value="0">
+              </div>
+            </li>
+            <li class="product-component-item-novelties">
+              <div class="product-item" data-product-code="7022500010008U">
+                <div class="progressive-discount-icon">
+                  
+                </div> 
+                <a href="#" title="Air Force NK" class="product-item-link">
+                  <div class="product-item-thumb">
+                    <img class="product-img loaded" width="300" height="350" alt="All Star" title="Air Force NK" src="_image/sapato12.jfif">
+                  </div>
+                  <div class="wrapper-novelty">
+                    <div class="title-novelty-wrapper">
+                      <h4 class="title-product-noveltys" id="corletra">Air Force NK</h4>
+                    </div>
+                    <div class="font-price-noveltys align-items-end preco7" id="corletra">R$90,00
+                    </div>
+                  </div>
+                </a>
+                <div class="noveltys-buy-product-wrapper">
+                  <a href="#">
+                    <p class="noveltys-buy-product botao" id="corletra">COMPRAR</p>
+                  </a>
+                </div>
+                <input type="hidden" class="sellable" value="true"> 
+                <input type="hidden" class="status" value=""> 
+                <input type="hidden" class="purchasable" value="true"> 
+                <input type="hidden" class="variantOptionsLength" value="0">
+              </div>
+            </li>
+            <li class="product-component-item-novelties">
+                <div class="product-item" data-product-code="7022500010001U">
+                  <div class="progressive-discount-icon">
+                    
+                  </div> 
+                  <a href="#" title="NIKE Air Jordan" class="product-item-link">
+                      <div class="product-item-thumb">
+                        <img class="product-img loaded" width="300" height="350" alt="NIKE Air Jordan " title="TNIKE Air Jordan" src="_image/sapato3.jfif">
+                      </div>
+                      <div class="wrapper-novelty">
+                        <div class="title-novelty-wrapper">
+                          <h4 class="title-product-noveltys titulo" id="corletra">Air Jordan Rosa </h4>
+                        </div>
+                        <div class="font-price-noveltys preco3-4" id="corletra">R$110,00
+                      </div>
+                    </div>
+                  </a>
+                <div class="noveltys-buy-product-wrapper">
+                  <a href="#">
+                    <p class="noveltys-buy-product botao" id="corletra">COMPRAR
+                    </p>
+                  </a>
+                </div>
+                <input type="hidden" class="sellable" value="true"> 
+                <input type="hidden" class="status" value="">
+                 <input type="hidden" class="purchasable" value="true"> 
+                 <input type="hidden" class="variantOptionsLength" value="0">
+               </div>
+            </li>
+            <li class="product-component-item-novelties">
+                <div class="product-item" data-product-code="7022500010005U">
+                  <div class="progressive-discount-icon">
+                    
+                  </div> 
+                  <a href="#" title="Tenis florido" class="product-item-link">
+                    <div class="product-item-thumb">
+                    <img class="product-img loaded" width="300" height="350" alt="Tenis florido" title="Tenis florido" src="_image/sapato13.jfif">
+                  </div>
+                  <div class="wrapper-novelty">
+                    <div class="title-novelty-wrapper">
+                      <h4 class="title-product-noveltys" id="corletra">Tenis florido</h4>
+                    </div>
+                    <div class="font-price-noveltys preco8" id="corletra">R$70,00
+                    </div>
+                  </div>
+                </a>
+                <div class="noveltys-buy-product-wrapper">
+                  <a href="#">
+                    <p class="noveltys-buy-product botao" id="corletra">COMPRAR</p>
+                  </a>
+                </div>
+                <input type="hidden" class="sellable" value="true"> 
+                <input type="hidden" class="status" value=""> 
+                <input type="hidden" class="purchasable" value="true"> 
+                <input type="hidden" class="variantOptionsLength" value="0">
+              </div>
+            </li>
+          </ul>
+          <div class="view-more"> 
+            <a href="#" title="VER MAIS" class="button-view-more" id="corletra">VER MAIS
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <main>
+      <section class="sectionCarrosel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="_image/banner10.jfif" id="imgBanner" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="_image/banner11.jfif" id="imgBanner" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="_image/banner4.jfif" id="imgBanner" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <style type="text/css"> 
+        a:link { text-decoration:none; } 
+      </style>
+      <div class="yCmsComponent component-ArezzoCoProductListComponentModel">
+        <div class="novelty-list">
+          <h2 class="title-home-novelty" id="u"> UNIXES</h2>
+          <ul class="product-component-list">
+            <li class="product-component-item-novelties">
+              <div class="product-item" data-product-code="7022500010002U">
+                <div class="progressive-discount-icon">
+                </div> 
+                <a href="#" title="Tommy" class="product-item-link">
+                  <div class="product-item-thumb">
+                    <img class="product-img loaded" width="300" height="350" alt="Tommy" title="Tommy" src="_image/sapato9.jfif">
+                  </div>
+                  <div class="wrapper-novelty">
+                    <div class="title-novelty-wrapper">
+                      <h4 class="title-product-noveltys" id="corletra">Tommy</h4>
+                    </div>
+                    <div class="font-price-noveltys align-items-end preco9" id="corletra">R$50,00
+                    </div>
+                  </div>
+                </a>
+                <div class="noveltys-buy-product-wrapper">
+                  <a href="#">
+                    <p class="noveltys-buy-product botao" id="corletra">COMPRAR</p>
+                  </a>
+                </div>
+                <input type="hidden" class="sellable" value="true"> 
+                <input type="hidden" class="status" value=""> 
+                <input type="hidden" class="purchasable" value="true"> 
+                <input type="hidden" class="variantOptionsLength" value="0">
+              </div>
+            </li>
+            <li class="product-component-item-novelties">
+              <div class="product-item" data-product-code="7022500010008U">
+                <div class="progressive-discount-icon">
+                  
+                </div> 
+                <a href="#" title="All Star" class="product-item-link">
+                  <div class="product-item-thumb">
+                    <img class="product-img loaded" width="300" height="350" alt="All Star" title="All Star" src="_image/sapato2.jfif">
+                  </div>
+                  <div class="wrapper-novelty">
+                    <div class="title-novelty-wrapper">
+                      <h4 class="title-product-noveltys" id="corletra">All Star</h4>
+                    </div>
+                    <div class="font-price-noveltys align-items-end preco2" id="corletra">R$100,00
+                    </div>
+                  </div>
+                </a>
+                <div class="noveltys-buy-product-wrapper">
+                  <a href="#">
+                    <p class="noveltys-buy-product botao" id="corletra">COMPRAR</p>
+                  </a>
+                </div>
+                <input type="hidden" class="sellable" value="true"> 
+                <input type="hidden" class="status" value=""> 
+                <input type="hidden" class="purchasable" value="true"> 
+                <input type="hidden" class="variantOptionsLength" value="0">
+              </div>
+            </li>
+            <li class="product-component-item-novelties">
+                <div class="product-item" data-product-code="7022500010001U">
+                  <div class="progressive-discount-icon">
+                    
+                  </div> 
+                  <a href="#" title="Tênis Ferrari" class="product-item-link">
+                      <div class="product-item-thumb">
+                        <img class="product-img loaded" width="300" height="350" alt="Tênis Ferrari " title="Tênis Ferrari" src="_image/sapato16.jfif">
+                      </div>
+                      <div class="wrapper-novelty">
+                        <div class="title-novelty-wrapper">
+                          <h4 class="title-product-noveltys titulo" id="corletra">Tênis Ferrari</h4>
+                        </div>
+                        <div class="font-price-noveltys preco7" id="corletra">R$110,00
+                      </div>
+                    </div>
+                  </a>
+                <div class="noveltys-buy-product-wrapper">
+                  <a href="#">
+                    <p class="noveltys-buy-product botao" id="corletra">COMPRAR
+                    </p>
+                  </a>
+                </div>
+                <input type="hidden" class="sellable" value="true"> 
+                <input type="hidden" class="status" value="">
+                 <input type="hidden" class="purchasable" value="true"> 
+                 <input type="hidden" class="variantOptionsLength" value="0">
+               </div>
+            </li>
+            <li class="product-component-item-novelties">
+                <div class="product-item" data-product-code="7022500010005U">
+                  <div class="progressive-discount-icon">
+                    
+                  </div> 
+                  <a href="#" title="Vans Old School" class="product-item-link">
+                    <div class="product-item-thumb">
+                    <img class="product-img loaded" width="300" height="350" alt="Vans Old School" title="Vans Old School" src="_image/sapato4.jfif">
+                  </div>
+                  <div class="wrapper-novelty">
+                    <div class="title-novelty-wrapper">
+                      <h4 class="title-product-noveltys" id="corletra">Vans Old School</h4>
+                    </div>
+                    <div class="font-price-noveltys preco3-4" id="corletra">R$90,00
+                    </div>
+                  </div>
+                </a>
+                <div class="noveltys-buy-product-wrapper">
+                  <a href="#">
+                    <p class="noveltys-buy-product botao" id="corletra">COMPRAR</p>
+                  </a>
+                </div>
+                <input type="hidden" class="sellable" value="true"> 
+                <input type="hidden" class="status" value=""> 
+                <input type="hidden" class="purchasable" value="true"> 
+                <input type="hidden" class="variantOptionsLength" value="0">
+              </div>
+            </li>
+          </ul>
+          <div class="view-more"> 
+            <a href="#" title="VER MAIS" class="button-view-more" id="corletra">VER MAIS
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-center text-white" id="fim">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Cadastre-se pra receber novidades</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="form5Example29" class="form-control" />
+                  <label class="form-label" for="form5Example29">Digite o Email</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Inscrever-se
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+      </div>
+      <!-- Grid container -->
+      <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-12 col-md-12 mb-4 mb-md-0 ">
+          <h5 class="text-uppercase">Sobre Nós!</h5>
+
+          <p>
+            Somos uma empresa criada em 2020, com o foco de sempre trazer os melhores produtos importados ou nacionais, tu isso com o melhor preço do Brasil!
+          </p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+      </div>
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com/dripstor.e?utm_medium=copy_link" role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <!-- zap -->
+          <a class="btn btn-outline-light btn-floating m-1" href="(55)75 98884-4447" role="button"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+
+          <!-- email -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="far fa-envelope"></i
+          ></a>
+        </section>
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          </div>
+          <!-- Copyright -->
+    </footer>
+
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+
+   
+  </body>
+</html>
